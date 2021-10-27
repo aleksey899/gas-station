@@ -8,8 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace gas_station.Controllers
 {
   [ApiController]
-  [Route("/admin")]
-  public class AdminController : ControllerBase
+  [Route("/refueller")]
+  public class RefuellerController1 : ControllerBase
   {
 
     [HttpPost("Realize")]

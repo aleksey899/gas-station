@@ -34,5 +34,23 @@ namespace gas_station.Controllers
         {
             return str;
         }
+
+        [HttpGet]
+        public string ReadInformation(string str)
+        {
+            return str;
+        }
+
+        [HttpPost]
+        public string MakeOrder(string str)
+        {
+            return str;
+        }
+
+        [HttpPost]
+        public string ServiceRate(string str)
+        {
+            return str;
+        }
     }
 }

@@ -8,8 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace gas_station.Controllers
 {
     [ApiController]
-    [Route("/refueller")]
-    public class RefuellerController : ControllerBase
+    [Route("/station")]
+    public class StationController1 : ControllerBase
     {
         [HttpPut]
         public string Create(string str)
@@ -34,5 +34,11 @@ namespace gas_station.Controllers
         {
             return str;
         }
-    }
+
+        [HttpPost]
+        public string RealizeRefueling(string str)
+        {
+            return str;
+        }
+}
 }

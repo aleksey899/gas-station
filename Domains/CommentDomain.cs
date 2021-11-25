@@ -1,4 +1,4 @@
-﻿namespace gas_stationDomain
+﻿namespace gas_station.Domains
 {
     public class Comment
     {

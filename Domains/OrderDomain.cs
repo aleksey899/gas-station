@@ -1,10 +1,10 @@
-﻿namespace gas_stationDomain
+﻿namespace gas_station.Domains
 {
     public class Order
     {
         public int OrderId { get; set; }
         public float OrderPrice { get; set; }
         public Client Client { get; set; }
-        public byte Payment { get; set; }
+        public bool IsPayed { get; set; }
     }
 }

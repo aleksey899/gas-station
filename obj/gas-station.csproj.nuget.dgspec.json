@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Packard Bell\\Documents\\gas-station\\gas-station.csproj": {}
+    "D:\\rsreu\\03_practice\\0315\\Aganina\\gas-station.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Packard Bell\\Documents\\gas-station\\gas-station.csproj": {
+    "D:\\rsreu\\03_practice\\0315\\Aganina\\gas-station.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Packard Bell\\Documents\\gas-station\\gas-station.csproj",
+        "projectUniqueName": "D:\\rsreu\\03_practice\\0315\\Aganina\\gas-station.csproj",
         "projectName": "gas-station",
-        "projectPath": "C:\\Users\\Packard Bell\\Documents\\gas-station\\gas-station.csproj",
-        "packagesPath": "C:\\Users\\Packard Bell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Packard Bell\\Documents\\gas-station\\obj\\",
+        "projectPath": "D:\\rsreu\\03_practice\\0315\\Aganina\\gas-station.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\rsreu\\03_practice\\0315\\Aganina\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Packard Bell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

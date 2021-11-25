@@ -27,3 +27,35 @@ C:\Users\Packard Bell\Documents\gas-station\obj\Debug\net5.0\gas-station.dll
 C:\Users\Packard Bell\Documents\gas-station\obj\Debug\net5.0\ref\gas-station.dll
 C:\Users\Packard Bell\Documents\gas-station\obj\Debug\net5.0\gas-station.pdb
 C:\Users\Packard Bell\Documents\gas-station\obj\Debug\net5.0\gas-station.genruntimeconfig.cache
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\appsettings.Development.json
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\appsettings.json
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\IISExpress\config\applicationhost.config
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\IISExpress\config\aspnet.config
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\IISExpress\config\redirection.config
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\gas-station.exe
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\gas-station.deps.json
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\gas-station.runtimeconfig.json
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\gas-station.runtimeconfig.dev.json
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\gas-station.dll
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\ref\gas-station.dll
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\gas-station.pdb
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\rsreu\03_practice\0315\Aganina\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.csprojAssemblyReference.cache
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.GeneratedMSBuildEditorConfig.editorconfig
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.AssemblyInfoInputs.cache
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.AssemblyInfo.cs
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.csproj.CoreCompileInputs.cache
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.MvcApplicationPartsAssemblyInfo.cs
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.MvcApplicationPartsAssemblyInfo.cache
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\staticwebassets\gas-station.StaticWebAssets.Manifest.cache
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\staticwebassets\gas-station.StaticWebAssets.xml
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\scopedcss\bundle\gas-station.styles.css
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.RazorTargetAssemblyInfo.cache
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.csproj.CopyComplete
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.dll
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\ref\gas-station.dll
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.pdb
+D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.genruntimeconfig.cache

@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace gas_station.Controllers
 {
     [ApiController]
-    [Route("/station")]
-    public class StationController1 : ControllerBase
+    [Route("/client")]
+    public class ClientController : ControllerBase
     {
         [HttpPut]
         public string Create(string str)
@@ -35,10 +30,22 @@ namespace gas_station.Controllers
             return str;
         }
 
-        [HttpPost]
-        public string RealizeRefueling(string str)
+        [HttpGet]
+        public string ReadInformation(string str)
         {
             return str;
         }
-}
+
+        [HttpPost]
+        public string MakeOrder(string str)
+        {
+            return str;
+        }
+
+        [HttpPost]
+        public string ServiceRate(string str)
+        {
+            return str;
+        }
+    }
 }

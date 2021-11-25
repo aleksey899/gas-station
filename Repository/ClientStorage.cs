@@ -1,6 +1,5 @@
-﻿using gas_stationDomain;
-using System.Collections.Generic;
-using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using gas_station.Domains;
 
 namespace gas_station.Repository
 {

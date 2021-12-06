@@ -1,4 +1,4 @@
-﻿namespace gas_station.Domains
+﻿namespace gas_station.Domain
 {
     public class Client
     {

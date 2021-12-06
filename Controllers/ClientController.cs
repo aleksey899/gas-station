@@ -1,4 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using gas_station.Domain;
+using gas_station.Repository;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace gas_station.Controllers
 {
@@ -7,45 +14,28 @@ namespace gas_station.Controllers
     public class ClientController : ControllerBase
     {
         [HttpPut]
-        public string Create(string str)
+        public Client Create(Client client)
         {
-            return str;
+            Storage.ClientStorage.Create(client);
+            return client;
         }
 
         [HttpGet]
-        public string Read(string str)
+        public Client Read(int clientId)
         {
-            return str;
+            return Storage.ClientStorage.Read(clientId);
         }
 
         [HttpPatch]
-        public string Update(string str)
+        public Client Update(int clientId, Client newClient)
         {
-            return str;
+            return Storage.ClientStorage.Update(clientId, newClient);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int clientId)
         {
-            return str;
-        }
-
-        [HttpGet]
-        public string ReadInformation(string str)
-        {
-            return str;
-        }
-
-        [HttpPost]
-        public string MakeOrder(string str)
-        {
-            return str;
-        }
-
-        [HttpPost]
-        public string ServiceRate(string str)
-        {
-            return str;
+            return Storage.ClientStorage.Delete(clientId);
         }
     }
 }

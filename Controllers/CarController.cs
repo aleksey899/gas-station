@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using gas_station.Domain;
+using gas_station.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -9,30 +11,32 @@ namespace gas_station.Controllers
 {
     [ApiController]
     [Route("/car")]
-    public class CarController : ControllerBase
+    public class CarController1 : ControllerBase
     {
         [HttpPut]
-        public string Create(string str)
+        public Car Create(Car car)
         {
-            return str;
+            Storage.CarStorage.Create(car);
+            return car;
         }
 
         [HttpGet]
-        public string Read(string str)
+        public Car Read(int carId)
         {
-            return str;
+            return Storage.CarStorage.Read(carId);
         }
 
         [HttpPatch]
-        public string Update(string str)
+        public Car Update(int carId, Car newCar)
         {
-            return str;
+            return Storage.CarStorage.Update(carId, newCar);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int carId)
         {
-            return str;
+            return Storage.CarStorage.Delete(carId);
         }
     }
 }
+        

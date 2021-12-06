@@ -10,5 +10,6 @@ namespace gas_station.Repository
         public static OrderStorage OrderStorage { get; } = new OrderStorage();
         public static RefuellerStorage RefuellerStorage { get; } = new RefuellerStorage();
         public static StationStorage StationStorage { get; } = new StationStorage();
+       
     }
 }

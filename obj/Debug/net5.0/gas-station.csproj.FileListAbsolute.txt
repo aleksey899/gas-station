@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\Packard Bell\Documents\gas-station\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Packard Bell\Documents\gas-station\bin\Debug\net5.0\appsettings.json
 C:\Users\Packard Bell\Documents\gas-station\bin\Debug\net5.0\gas-station.exe
@@ -59,3 +60,8 @@ D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.dll
 D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\ref\gas-station.dll
 D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.pdb
 D:\rsreu\03_practice\0315\Aganina\obj\Debug\net5.0\gas-station.genruntimeconfig.cache
+=======
+C:\Users\Packard Bell\Documents\gas-station\bin\Debug\net5.0\IISExpress\config\applicationhost.config
+C:\Users\Packard Bell\Documents\gas-station\bin\Debug\net5.0\IISExpress\config\aspnet.config
+C:\Users\Packard Bell\Documents\gas-station\bin\Debug\net5.0\IISExpress\config\redirection.config
+>>>>>>> Stashed changes

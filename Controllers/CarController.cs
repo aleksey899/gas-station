@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using gas_station.Domain;
+﻿using gas_station.Domain;
 using gas_station.Repository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+
 
 namespace gas_station.Controllers
 {
     [ApiController]
     [Route("/car")]
-    public class CarController1 : ControllerBase
+    public class CarController : ControllerBase
     {
         [HttpPut]
         public Car Create(Car car)

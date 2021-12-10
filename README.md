@@ -245,12 +245,7 @@ namespace gas_station.Repository
     }
 }
 ~~~
- 
- 
-
- 
- 
- 
+  
 ***
 ## 4 Тестирование <a name="тестирование"></a>
 *** 

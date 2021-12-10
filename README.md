@@ -119,7 +119,7 @@
 ## 3.2 Этап реализации <a name="реализация"></a>
 ***
 
-На основании ER диаграммы для каждой сущности создаем класс с указанием полей, параметров и типов данных. Приведем пример создания класса для сущности Car.
+На основании ER диаграммы для каждой сущности был создан класс с указанием свойств, параметров и типов данных. Приведем пример создания класса для сущности Car. 
 
 ~~~csharp
 namespace gas_station.Domain
@@ -133,17 +133,122 @@ namespace gas_station.Domain
 }
 ~~~
 
-Создаем классы для других сущностей.
+Далее были созданы классы для других сущностей. Это показано на рисунке 4.
 
 ![alt text](Screen/2.png)
+Рисунок 4 - Классы других сущностей
 
-Далее для каждой сущности реализуем контроллер с методами CRUD (create, read, update, delete). Приведем пример создания контроллера для сущности Car.
+Далее для сущности Car реализуем контроллер с методами CRUD (create, read, update, delete).
 
-![alt text](Screen/3.png)
+~~~csharp
+using gas_station.Domain;
+using gas_station.Repository;
+using Microsoft.AspNetCore.Mvc;
+
+
+namespace gas_station.Controllers
+{
+    [ApiController]
+    [Route("/car")]
+    public class CarController : ControllerBase
+    {
+        [HttpPut]
+        public Car Create(Car car)
+        {
+            Storage.CarStorage.Create(car);
+            return car;
+        }
+
+        [HttpGet]
+        public Car Read(int carId)
+        {
+            return Storage.CarStorage.Read(carId);
+        }
+
+        [HttpPatch]
+        public Car Update(int carId, Car newCar)
+        {
+            return Storage.CarStorage.Update(carId, newCar);
+        }
+
+        [HttpDelete]
+        public bool Delete(int carId)
+        {
+            return Storage.CarStorage.Delete(carId);
+        }
+    }
+}
+~~~      
+
+ После реализованы контроллеры для остальных сущностей на рисунке 5.
  
- Реализуем контроллеры для других сущностей.
+ ![alt text](Screen/st1.png)
+ Рисунок 5 - Контроллеры других сущностей
  
- ![alt text](Screen/4.png)
+ После создания репозитория, было создано хранилище для сущности Car.
+ 
+~~~csharp
+using gas_station.Domain;
+using System.Collections.Generic;
+
+namespace gas_station.Repository
+{
+    public class CarStorage
+    {
+        private Dictionary<int, Car> Cars { get; } = new Dictionary<int, Car>();
+
+        public void Create(Car car)
+        {
+            Cars.Add(car.CarId, car);
+        }
+
+        public Car Read(int CarId)
+        {
+            return Cars[CarId];
+        }
+
+        public Car Update(int CarId, Car newCar)
+        {
+            Cars[CarId] = newCar;
+            return Cars[CarId];
+        }
+
+        public bool Delete(int CarId)
+        {
+            return Cars.Remove(CarId);
+        }
+    }
+}
+~~~
+
+ Далее были созданы хранилища для остальных сущностей на рисунке 6. 
+ 
+ ![alt text](Screen/stmany.png)
+ Рисунок 6 - Контроллеры других сущностей
+ 
+ Создание общего хранилища.
+ 
+~~~csharp
+ namespace gas_station.Repository
+{
+    public static class Storage
+    {
+        public static CardStorage CardStorage { get; } = new CardStorage();
+        public static CarStorage CarStorage { get; } = new CarStorage();
+        public static ClientStorage ClientStorage { get; } = new ClientStorage();
+        public static CommentStorage CommentStorage { get; } = new CommentStorage();
+        public static ErrorStorage ErrorStorage { get; } = new ErrorStorage();
+        public static OrderStorage OrderStorage { get; } = new OrderStorage();
+        public static RefuellerStorage RefuellerStorage { get; } = new RefuellerStorage();
+        public static StationStorage StationStorage { get; } = new StationStorage();
+       
+    }
+}
+~~~
+ 
+ 
+
+ 
  
  
 ***
